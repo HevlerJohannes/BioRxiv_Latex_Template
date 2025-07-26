@@ -13,8 +13,17 @@ Open the folder containing the LaTeX code in VScode as follows:
 * File --> Open Folder --> Choose the correct folder.
 * When opening the folder for the first time, VScode will give you recommendations what to install via a pop-up window in the lowe right corner. If this is not the case, you can find the needed packages in [.vscode/extensions.json](.vscode/extensions.json).
 
-## Compile
-Compile in terminal:
+## Compile pdf
+Compile in terminal by running the following:
+
 ```bash
+pdflatex Article.tex
+```
+If bibliography is not correctly compiled run the following:
+
+```bash
+pdflatex Article.tex
+bibtex Article
+pdflatex Article.tex
 pdflatex Article.tex
 ```
