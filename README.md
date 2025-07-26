@@ -1,16 +1,5 @@
 # LaTeX code to produce BioRxiv style preprint using VS Code
 
-## Acknowledgements
-
-This LaTeX template is based on the [zHenriquesLab-StyleBioRxiv.cls]([https://github.com/HenriquesLab/LaTeX-template-bioRxiv](https://www.overleaf.com/latex/templates/henriqueslab-biorxiv-template/nyprsybwffws)) originally developed by Ricardo Henriques.  
-
-It has been slightly modified to suit my personal preferences.
-
-All original credit goes to the author.
-
-## Why running LaTeX locally
-Latex needs to be installed locally, as online resources just like Overleaf cannot compile the full thesis (a thesis with ~ 300 pages takes about 2 min to compile (depending your machine of course), while Overleaf (with the University account) crashes after ~ 1 min).
-
 ## Requirements
 * VS Code e.g. via the Software Center
 * LaTeX; use TeX Live and install as described in [Requirements](https://github.com/James-Yu/LaTeX-Workshop/wiki/Install#requirements).
@@ -35,3 +24,10 @@ bibtex Article
 pdflatex Article.tex
 pdflatex Article.tex
 ```
+## Acknowledgements
+
+This LaTeX template is based on the [zHenriquesLab-StyleBioRxiv.cls](https://github.com/HenriquesLab/LaTeX-template-bioRxiv](https://www.overleaf.com/latex/templates/henriqueslab-biorxiv-template/nyprsybwffws) originally developed by Ricardo Henriques.  
+
+It has been slightly modified to suit my personal preferences.
+
+All original credit goes to the author.
