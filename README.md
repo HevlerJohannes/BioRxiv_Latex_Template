@@ -26,7 +26,8 @@ pdflatex Article.tex
 ```
 ## Acknowledgements
 
-This LaTeX template is based on the [zHenriquesLab-StyleBioRxiv.cls](https://github.com/HenriquesLab/LaTeX-template-bioRxiv](https://www.overleaf.com/latex/templates/henriqueslab-biorxiv-template/nyprsybwffws) originally developed by Ricardo Henriques.  
+This LaTeX template is based on the [zHenriquesLab-StyleBioRxiv.cls (Overleaf)](https://www.overleaf.com/latex/templates/henriqueslab-biorxiv-template/nyprsybwffws)
+originally developed by Ricardo Henriques.  
 
 It has been slightly modified to suit my personal preferences.
 
