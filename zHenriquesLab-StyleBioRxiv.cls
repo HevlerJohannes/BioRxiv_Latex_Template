@@ -260,13 +260,17 @@
 \DeclareCaptionFormat{largeformat}{\normalfont\sffamily\fontsize{9}{12}\selectfont#1#2#3}
 \captionsetup*{format=smallformat}
 
-% %% Watermark 
-\usepackage[printwatermark]{xwatermark}
-\AtBeginDocument{%
-  \ifwatermark%
-  \newwatermark[allpages,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
-  \fi
-}
+%% Watermark
+\usepackage[nostamp]{draftwatermark}
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{3}
+\SetWatermarkColor[gray]{0.8}
+%\usepackage[printwatermark]{xwatermark}
+%\AtBeginDocument{%
+  %\ifwatermark%
+  %\newwatermark[allpages,color=gray!20,angle=45,scale=3,xpos=0,ypos=0]{DRAFT}
+  %\fi
+%}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Henriques lab parts adapted from PNAS - END %%
